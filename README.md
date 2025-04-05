@@ -32,3 +32,17 @@ A Next.js application that displays different school information based on the su
 ```bash
 git clone https://github.com/Ava620-bot/multitenant-school.git
 cd multitenant-school
+
+### 2. Test Admin Credentials (Only for Local Development)
+
+After running the `/api/seed` endpoint, you can log in as:
+
+- **School 1 Admin**
+  - Email: `admin@school1.com`
+  - Password: `password123`
+
+- **School 2 Admin**
+  - Email: `admin@school2.com`
+  - Password: `password123`
+
+> These are mock credentials created by the seed script. Do not use them in production.
